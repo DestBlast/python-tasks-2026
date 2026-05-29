@@ -1,0 +1,5 @@
+a = float(input())
+b = float(input())
+c = float(input())
+low1, low2, _ = sorted([a, b, c])
+print(low1 * low2)

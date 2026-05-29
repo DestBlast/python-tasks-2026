@@ -1,0 +1,5 @@
+y = float(input())
+hours = int(y // 30)
+minutes = int((y % 30) // 0.5)
+print(hours)
+print(minutes)
